@@ -5,6 +5,18 @@ admin_path: admin
 webhook_url: https://api.stackbit.com/project/5d68234666eba50010e334cb/webhook/forestry
 sections:
 - type: document
+  path: _data/media.json
+  label: Photo & Video
+  match: "**/*"
+- type: document
+  path: _data/listing-info.json
+  label: Property Info
+  match: "**/*"
+- type: document
+  path: _data/agent.json
+  label: Agent Info
+  match: "**/*"
+- type: document
   path: _data/social.json
   label: Social Links
   templates:
